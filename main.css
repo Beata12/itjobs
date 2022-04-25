@@ -1,0 +1,199 @@
+.searchbox-container {
+	padding: 10px;
+	background-color: #191919;
+	text-align: center;
+	color: #fff;
+}
+
+.container-heading {
+	font-size: 45px;
+}
+
+.text-box {
+	width: 80%;
+	height: 40px;
+	font-size: 15px;
+}
+
+.categories-container {
+	padding-top: 2px;
+	margin-left: 50px;
+}
+
+.filters {
+	font-size: 18px;
+}
+
+.categories-container-bar {
+	float: left;
+}
+
+.categories-container-desktop {
+	display: none;
+}
+
+.column-name {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.column-salary {
+	font-size: 17px;
+}
+
+.column {
+	font-size: 17px;
+}
+
+.column-like {
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.top-informaion-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.top-offers {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+h3 {
+	font-size: 14px;
+	color: rgba(187, 141, 14, 0.836);
+}
+
+td {
+	font-size: 15px;
+}
+
+.job-container {
+	margin: 1px auto;
+	padding: 20px;
+	text-align: justify;
+	font-family: sans-serif;
+	list-style-type: none;
+}
+
+.job-offer {
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	border: solid 1px rgb(101, 106, 110, 0.2);
+	border-left: none !important;
+	line-height: 30px;
+}
+
+.job-offer:hover {
+	background: linear-gradient(53deg, #888e8d, #bcb2b3);
+}
+
+.bestday-job-offers {
+	border: 1px solid white;
+	border-left: solid 4px rgb(0, 140, 255);
+	width: 100%;
+}
+
+.job-offerts-list {
+	border: 1px solid white;
+	border-left: solid 2px rgb(101, 106, 110);
+	width: 100%;
+}
+
+.company-img {
+	width: 60px;
+	height: 50px;
+}
+
+.sub-mobiles {
+	display: block;
+	font-size: 22px;
+}
+.sub-websites {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.job-offer {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 70px;
+	}
+
+	.top-offers {
+		text-decoration: underline rgb(0, 140, 255) 4px;
+	}
+
+	.column-name {
+		flex: 2.5;
+	}
+
+	.column-salary {
+		flex: 1;
+		text-align: center;
+		font-size: 15px;
+		margin: 10px 0;
+		padding: 10px;
+		border: 2px solid rgb(150, 146, 146, 0.8);
+	}
+
+	.column-salary:hover {
+		background: linear-gradient(53deg, #b6cac9, #bea8aa);
+		transform: scale(1.1);
+	}
+
+	.column {
+		flex: 1;
+		text-align: right;
+	}
+
+	.column-like {
+		flex: 0.3;
+		text-align: center;
+	}
+
+	.job-container {
+		width: 60%;
+	}
+
+	br {
+		display: none;
+	}
+
+	.company-img {
+		width: 70px;
+		height: 65px;
+	}
+
+	h2 {
+		font-size: 23px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	td {
+		font-size: 18px;
+	}
+
+	.sub-mobiles {
+		display: none;
+	}
+
+	.sub-websites {
+		display: block;
+		animation-name: color;
+		animation-duration: 4s;
+		animation-fill-mode: forwards;
+		animation-iteration-count: infinite;
+	}
+}

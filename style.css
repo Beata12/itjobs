@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.nav {
+	height: 64px;
+}
+
+.main {
+	background-color: white;
+	min-height: calc(100vh - 64px - 240px);
+}
+
+.footer {
+	background-color: black;
+	height: 240px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+}
